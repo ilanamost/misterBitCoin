@@ -1,0 +1,37 @@
+.contacts-page {
+  position: relative;
+  height: 100%; 
+}
+
+.contacts-page .search-container {
+  height: 40px;
+  padding: 0 10px; 
+}
+
+.contacts-page .contacts-container {
+  max-height: 360px;
+  overflow-x: auto; 
+}
+
+.contacts-page .action-container {
+  position: absolute;
+  bottom: 7px;
+  right: 10px; 
+}
+
+.contacts-page .action-container a {
+  padding: 5px 15px;
+  border-radius: 50%;
+  /* background: #246ee5; */
+  /* background-color: #795548; */
+  background-color: #b89588;
+  color: #fff;
+  font-size: 30px; 
+  /* margin-right: 40%; */
+}
+
+@media (max-width: 360px) {
+  .contacts-page .action-container a{
+      margin-right: 45%;
+  }
+}
