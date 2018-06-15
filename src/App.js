@@ -4,8 +4,6 @@ import { bindActionCreators } from "redux";
 import { loadUser } from "./store/actions";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 
-import logo from './assets/logo.jpg'
-
 import {
   BrowserRouter as Router,
   Route,
@@ -23,6 +21,8 @@ import MoveService from "./services/MoveService";
 
 import "./App.css";
 import "./assets/icon-font/flaticon.css";
+
+const logo = 'http://res.cloudinary.com/ilanamost/image/upload/v1529046124/logo.jpg';
 
 class App extends Component {
   constructor(props) {
