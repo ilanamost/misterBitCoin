@@ -9,9 +9,10 @@ import { getContactById } from "../../store/actions";
 import { loadUser } from "../../store/actions";
 import { updateUser } from "../../store/actions";
 
-import imgAvatar from "../../assets/img_avatar.png";
 import "./ContactDetailsPage.css";
 import Transfer from "../../components/Transfer/Transfer";
+
+const imgAvatar = "http://res.cloudinary.com/ilanamost/image/upload/v1529046117/img_avatar.png";
 
 class ContactDetailsPage extends Component {
   constructor(props) {

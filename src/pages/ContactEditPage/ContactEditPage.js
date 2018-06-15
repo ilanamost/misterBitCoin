@@ -10,7 +10,8 @@ import { getContactById } from "../../store/actions";
 import { deleteContact } from "../../store/actions";
 
 import "./ContactEditPage.css";
-import imgAvatar from "../../assets/img_avatar.png";
+
+const imgAvatar = "http://res.cloudinary.com/ilanamost/image/upload/v1529046117/img_avatar.png";
 
 const Header = ({ contact, onDeleteContact }) => {
   const backUrl = contact._id ? `/contacts/${contact._id}` : `/contacts`;

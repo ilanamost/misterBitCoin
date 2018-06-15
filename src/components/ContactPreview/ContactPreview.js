@@ -1,7 +1,9 @@
 import React from 'react';
 
 import './ContactPreview.css'
-import imgAvatar from '../../assets/img_avatar.png'
+
+const imgAvatar = 'http://res.cloudinary.com/ilanamost/image/upload/v1529046117/img_avatar.png';
+
 
 const ContactPreview = ({contact}) => {
   const avatar = contact.picture || imgAvatar
