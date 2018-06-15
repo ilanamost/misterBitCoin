@@ -2,24 +2,31 @@
   "name": "misterbit-coin",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ilanamost.github.io/misterBitCoin/",
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "react-scripts": "1.1.4"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "lodash": "^4.17.10",
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.17",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
-    "uniqid": "^4.1.1"
+    "uniqid": "^5.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
