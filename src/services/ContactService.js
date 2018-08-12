@@ -201,7 +201,8 @@ function _updateContact(contact) {
 function _addContact(contact) {
   return new Promise((resolve, reject) => {
     contact._id = uniqid();
-    contact.picture = "/img/img_avatar.png";
+    // contact.picture = "/img/img_avatar.png";
+    contact.picture = imgAvatar;
     contacts.push(contact);
     resolve(contact);
   });
